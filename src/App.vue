@@ -1,11 +1,10 @@
-<template>
-  <div>
-    <h1>Meu Portfólio</h1>
-  </div>
-</template>
-
 <script setup>
+import Home from './pages/Home.vue'
 </script>
+
+<template>
+  <Home />
+</template>
 
 <style>
 body {

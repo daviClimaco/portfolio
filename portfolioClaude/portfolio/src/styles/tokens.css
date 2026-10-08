@@ -18,15 +18,14 @@
 /* Tema claro: padrão. */
 :root,
 :root[data-theme='light'] {
-    color-scheme: light;
-    --bg: #f5f6f7;
-    --bg-raised: #ebedf0;
-    --line: #dcdfe4;
-    --text: #3b434c;
-    --text-muted: #5e6a78;
-    --accent: #46627f;
+    --bg: #e4e6e9;
+    --bg-raised: #d8dbe0;
+    --line: #c6cbd1;
+    --text: #2f3740;
+    --text-muted: #4a5563;
+    --accent: #3a5573;
     --on-accent: #ffffff;
-    --code-key: #5a7596;
+    --code-key: #4f6c8e;
 }
 
 /* Tema escuro suave: troque data-theme="light" por "dark" no index.html. */

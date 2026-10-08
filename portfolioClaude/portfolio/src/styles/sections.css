@@ -24,6 +24,29 @@
 .nav-links {
     display: flex;
     gap: 1.75rem;
+    margin-left: auto;
+}
+
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    margin-left: 1.25rem;
+}
+
+.theme-toggle {
+    display: inline-flex;
+    padding: 0.4rem;
+    background: none;
+    border: 0;
+    border-radius: var(--radius);
+    color: var(--text-muted);
+    cursor: pointer;
+    transition: color 0.2s var(--ease);
+}
+
+.theme-toggle:hover {
+    color: var(--accent);
 }
 
 .nav-links a {

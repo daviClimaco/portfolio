@@ -28,10 +28,10 @@ export const profile = {
     photoAlt: 'Foto de Davi Bomfim Climaco',
 
     about: [
-        "Sou desenvolvedor full stack júnior na B5's Tecnologia, em Maringá, trabalhando com manutenção e evolução de sistemas em produção desenvolvidos em Progress/OpenEdge. No dia a dia, atuo em melhorias, correções e desenvolvimento de novas funcionalidades em sistemas existentes.",
+        'Sou desenvolvedor de software júnior na B5S Tecnologia, em Maringá. Entrei como estagiário em agosto de 2025 e fui efetivado em abril de 2026. Hoje trabalho na manutenção e evolução de sistemas corporativos e ERP em Progress 4GL, incluindo integrações entre sistemas e bases de dados com SQL, JavaScript e APIs.',
 
-        'Estudo Engenharia de Software na Unicesumar e também desenvolvo projetos próprios para ampliar minha experiência prática. Entre eles está uma plataforma de análise de avaliações utilizando Python, processamento de linguagem natural, machine learning e uma API, além de projetos envolvendo desenvolvimento de software e aplicações interativas.',
+        'Acompanho a demanda do começo ao fim: entendo a regra de negócio com as áreas envolvidas, desenvolvo, testo, apoio a homologação e valido a entrega com o time, que trabalha com Scrum.',
 
-        'Busco continuar evoluindo como desenvolvedor, trabalhando com desenvolvimento de software, APIs, dados e soluções que resolvam problemas reais, enquanto amplio minha experiência com tecnologias modernas e boas práticas de engenharia de software.',
+        'Estudo Engenharia de Software na UniCesumar, com conclusão prevista para 2027, e desenvolvo projetos próprios, como uma plataforma de análise de avaliações de restaurantes em Python, com API em FastAPI e machine learning, e um jogo de luta 2D em Unity.',
     ],
 }

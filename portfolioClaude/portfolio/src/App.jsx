@@ -9,22 +9,22 @@ import Education from './sections/Education.jsx'
 import Contact from './sections/Contact.jsx'
 
 export default function App() {
-  return (
-    <>
-      <a className="skip-link" href="#conteudo">
-        Pular para o conteúdo
-      </a>
-      <Navbar />
-      <main id="conteudo">
-        <Hero />
-        <About />
-        <Skills />
-        <Experience />
-        <Projects />
-        <Education />
-        <Contact />
-      </main>
-      <Footer />
-    </>
-  )
+    return (
+        <>
+            <a className="skip-link" href="#conteudo">
+                Pular para o conteúdo
+            </a>
+            <Navbar />
+            <main id="conteudo">
+                <Hero />
+                <About />
+                <Skills />
+                <Experience />
+                <Projects />
+                <Education />
+                <Contact />
+            </main>
+            <Footer />
+        </>
+    )
 }

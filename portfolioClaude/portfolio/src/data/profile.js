@@ -1,29 +1,37 @@
-import photo from '../assets/photo.svg'
+import photo from '../assets/photo.jpg'
 
-// Dados pessoais. Linhas marcadas com PREENCHER precisam ser trocadas.
+// Dados pessoais.
+// Troque os campos marcados com PREENCHER quando tiver as informações finais.
 export const profile = {
-  name: 'Davi Climaco', // CONFIRMAR: nome completo como quer que apareça
-  role: 'Desenvolvedor Full Stack Júnior',
-  company: "B5's Tecnologia",
-  location: 'Maringá, PR',
-  headline:
-    'Mantenho e moderno sistemas legados Progress/OpenEdge em produção e construo APIs e análise de dados em projetos próprios.',
-  // Aparece no painel de código do topo (src/sections/Hero.jsx).
-  focus: ['Progress/OpenEdge', 'Python', 'Java'],
+    name: 'Davi Bomfim Climaco',
+    role: 'Desenvolvedor Full Stack Júnior',
+    company: "B5's Tecnologia",
+    location: 'Maringá, PR',
 
-  email: 'PREENCHER@exemplo.com', // PREENCHER
-  github: 'https://github.com/daviClimaco',
-  linkedin: 'https://www.linkedin.com/in/davibclimaco/',
-  repo: 'https://github.com/daviClimaco/portfolio',
+    headline:
+        'Atuo com desenvolvimento e manutenção de sistemas em produção com Progress/OpenEdge e desenvolvo projetos próprios com APIs, Python, JavaScript e análise de dados.',
 
-  // Arquivo dentro de /public. Substitua public/curriculo.pdf pelo seu.
-  resume: 'curriculo.pdf',
-  photo, // Para usar uma foto sua: coloque src/assets/photo.jpg e importe aqui.
-  photoAlt: 'Foto de Davi Climaco', // PREENCHER depois de trocar a foto
+    // Aparece no painel de código do topo (src/sections/Hero.jsx).
+    focus: ['Progress/OpenEdge', 'Python', 'JavaScript', 'SQL'],
 
-  about: [
-    "Sou desenvolvedor full stack júnior na B5's Tecnologia, em Maringá. Trabalho com sistemas legados em Progress/OpenEdge que estão em produção, onde mexer em código existente com cuidado faz parte da rotina.",
-    'Estudo Engenharia de Software na Unicesumar e desenvolvo projetos próprios em Python, Java e C#, como uma plataforma de análise de avaliações de restaurantes e um jogo de luta 2D em Unity.',
-    'PREENCHER: um parágrafo sobre o que você busca agora (tipo de vaga, área, problemas que quer resolver).',
-  ],
+    email: 'davibomfimclimaco@gmail.com',
+    github: 'https://github.com/daviClimaco',
+    linkedin: 'https://www.linkedin.com/in/davibclimaco/',
+    repo: 'https://github.com/daviClimaco/portfolio',
+
+    // Arquivo dentro de /public.
+    // Substitua public/curriculo.pdf pelo seu currículo.
+    resume: 'curriculo.pdf',
+
+    // Substitua pelo caminho da sua foto quando colocar uma imagem real.
+    photo,
+    photoAlt: 'Foto de Davi Bomfim Climaco',
+
+    about: [
+        "Sou desenvolvedor full stack júnior na B5's Tecnologia, em Maringá, trabalhando com manutenção e evolução de sistemas em produção desenvolvidos em Progress/OpenEdge. No dia a dia, atuo em melhorias, correções e desenvolvimento de novas funcionalidades em sistemas existentes.",
+
+        'Estudo Engenharia de Software na Unicesumar e também desenvolvo projetos próprios para ampliar minha experiência prática. Entre eles está uma plataforma de análise de avaliações utilizando Python, processamento de linguagem natural, machine learning e uma API, além de projetos envolvendo desenvolvimento de software e aplicações interativas.',
+
+        'Busco continuar evoluindo como desenvolvedor, trabalhando com desenvolvimento de software, APIs, dados e soluções que resolvam problemas reais, enquanto amplio minha experiência com tecnologias modernas e boas práticas de engenharia de software.',
+    ],
 }

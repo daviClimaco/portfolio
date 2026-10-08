@@ -90,7 +90,6 @@ a:hover {
 }
 
 .meta {
-    font-family: var(--font-mono);
     font-size: var(--step--1);
     color: var(--text-muted);
 }
@@ -111,14 +110,12 @@ a:hover {
     border-radius: var(--radius);
     font-weight: 500;
     text-decoration: none;
-    transition: border-color 0.2s var(--ease), color 0.2s var(--ease), background 0.2s var(--ease),
-        transform 0.2s var(--ease);
+    transition: border-color 0.2s var(--ease), color 0.2s var(--ease), background 0.2s var(--ease);
 }
 
 .btn:hover {
     border-color: var(--accent);
     color: var(--accent);
-    transform: translateY(-2px);
 }
 
 .btn-primary {
@@ -141,9 +138,8 @@ a:hover {
 
 .tags li {
     padding: 0.15rem 0.6rem;
-    border: 1px solid var(--line);
+    background: var(--bg-raised);
     border-radius: var(--radius);
-    font-family: var(--font-mono);
     font-size: var(--step--1);
     color: var(--text-muted);
 }
